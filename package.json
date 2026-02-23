@@ -7,13 +7,13 @@
     "node": ">=20"
   },
   "scripts": {
-    "dev": "tsx server.ts",
-    "clean": "rm -rf dist",
-    "build": "npm run clean && vite build",
-    "start": "tsx server.ts",
-    "preview": "vite preview",
-    "lint": "tsc --noEmit"
+  "dev": "tsx server.ts",
+  "clean": "rm -rf dist",
+  "build": "tsc && vite build",
+  "start": "node dist/server.js",
+  "preview": "vite preview"
   },
+  
   "dependencies": {
     "@google/genai": "^1.29.0",
     "@tailwindcss/vite": "^4.1.14",
