@@ -6,10 +6,8 @@
     "outDir": "./dist",
     "rootDir": ".",
     "esModuleInterop": true,
-    "strict": false,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "strict": false
   },
-  "include": [
-    "server.ts"
-  ]
+  "include": ["server.ts"]
 }
