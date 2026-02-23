@@ -9,7 +9,7 @@
   "scripts": {
   "dev": "tsx server.ts",
   "clean": "rm -rf dist",
-  "build": "tsc -p tsconfig.server.json && vite build"
+  "build": "tsc -p tsconfig.server.json && vite build",
   "start": "node dist/server.js",
   "preview": "vite preview"
   },
