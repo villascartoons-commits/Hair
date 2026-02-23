@@ -20,8 +20,7 @@
         "./src/*"
       ]
     },
-    "allowImportingTsExtensions": true,
     "noEmit": false,
-"outDir": "./dist"
+    "outDir": "./dist"
   }
 }
